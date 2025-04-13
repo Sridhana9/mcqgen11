@@ -6,10 +6,12 @@ setup(
     author='sridhana ankathi',
     author_email='sridhanaankathi2003@gmail.com',
     install_requires=[
-        "langchain",
-        "python-dotenv",
-        "pandas",
-        "huggingface_hub"
-    ],
+    "langchain",
+    "langchain-huggingface",
+    "python-dotenv",
+    "pandas",
+    "huggingface_hub",
+    "ipywidgets"  # only if needed
+],
     packages=find_packages(),
 )
